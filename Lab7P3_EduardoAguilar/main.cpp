@@ -123,7 +123,7 @@ int main(int argc, char** argv) {
 				<<"L\n"
 				<<"N (NO TALLA)\n";
 				cin>>valor;
-				cout<<"1. Menor a mayor\n"
+				cout<<"1. Menor a mayor\n" //esto no lo hace, me quede sin tiempo :((
 				<<"2. Mayor a menor";
 				cin >> prize;
 				t->filtrar(categ,valor,prize);
@@ -132,6 +132,7 @@ int main(int argc, char** argv) {
 			}
 		}
 	}
+	delete t;
 	return 0;
 }
 
